@@ -1,82 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script type="text/javascript" src ="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
     <title></title>
 </head>
+<style type="text/css">
+  .gallery {
+    margin: 10px 50px;
+  }
+  .gallery img {
+    width:230px;
+    padding: 5px;
+  }
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+</style>
 <body style="background-color: lightgray;">
 
-    <div class="container">
+    <div class="gallery">
 
-  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0"><strong>Gallery</strong></h1>
+  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Gallery</h1>
 
   <hr class="mt-2 mb-5">
 
-  <div class="row text-center text-lg-left " id="baguetteBox-slider" style="transform: translate3d(0%, 0px, 0px);">
+  <a href="img/gallery/1.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/1.jpg" alt="">
+          </a>
+  <a href="img/gallery/2.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/2.jpg" alt="">
+          </a>
+  <a href="img/gallery/3.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/3.jpg" alt="">
+          </a>
+  <a href="img/gallery/4.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/4.jpg" alt="">
+          </a>
+  <a href="img/gallery/5.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/5.jpg" alt="">
+          </a>
+  <a href="img/gallery/6.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/6.jpg" alt="">
+          </a>
+  <a href="img/gallery/7.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/7.jpg" alt="">
+          </a>
+  <a href="img/gallery/8.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/8.jpg" alt="">
+          </a>
+  <a href="img/gallery/9.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/9.jpg" alt="">
+          </a>
+  <a href="img/gallery/10.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/10.jpg" alt="">
+          </a>
+  <a href="img/gallery/11.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/11.jpg" alt="">
+          </a>
+  <a href="img/gallery/12.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/12.jpg" alt="">
+          </a>
+  <a href="img/gallery/1.jpg" data-lightbox="mygallery">
+            <img class="img-fluid img-thumbnail" src="img/gallery/1.jpg" alt="">
+          </a>
 
-    <div class="col-lg-3 col-md-4 col-6 lightbox baguetteBox-button" id="baguette-img-0" >
-      <a href="img\gallery\1.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\1.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\2.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\2.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\3.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\3.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\4.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\4.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\5.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\5.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\6.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\6.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\7.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\7.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\8.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\8.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\9.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\9.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\10.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\10.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\11.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\11.jpg" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6 lightbox">
-      <a href="img\gallery\12.jpg" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img\gallery\12.jpg" alt="">
-          </a>
-    </div>
-  </div>
+
+  
 </div>
 
 </body>
